@@ -2,6 +2,8 @@
 
 Script python qui permet de recuperer automatiquement les clips creer sur sa chaine twitch et le poster sur son serveur discord grace au webhook
 
+Python script that allows you to automatically retrieve the clips created on your twitch channel and post it on your discord server using the webhook
+
 Kick : https://www.kick.com/mraurontv     
 Twitch : https://www.twitch.tv/mraurontv    
 Youtube : https://www.youtube.com/user/mraurontv    
