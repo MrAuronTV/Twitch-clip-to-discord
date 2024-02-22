@@ -16,8 +16,9 @@ d = d.isoformat("T") + "Z"
 
 WEBHOOK_URL = 'YOUR_WEBHOOK_URL'
 PATH = 'YOUR_PATH' #Path where you stock clip id for doesnt spam discord
+BROADCASTERID = 'BROADCASTERID'
 
-API_ENDPOINT = 'https://api.twitch.tv/helix/clips?broadcaster_id=54543758&started_at={}'.format(d)
+API_ENDPOINT = 'https://api.twitch.tv/helix/clips?broadcaster_id={0}&started_at={1}'.format(BROADCASTERID,d)
 
 #Create app https://dev.twitch.tv/console/apps
 Client_ID = 'CLIENT_ID'
